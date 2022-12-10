@@ -1,9 +1,11 @@
 class Word
+  attr_reader :word
+  
   CS_ENDING = 'cs'.freeze
   NUMBER_POW = 2.freeze
 
   def initialize(word)
-    @word = word
+    @word = word[:word]
     @length = @word.length
     @ending = @word.chars.last(2).join
   end
