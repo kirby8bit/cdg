@@ -6,4 +6,4 @@
 [{ name: 'Pikachu', color: 'Yellow'}, ... n times{}]
 </p>
 
-<img src="img/hw3_2.jpeg"/>
+<img src="img/hw3_2.jpg"/>
